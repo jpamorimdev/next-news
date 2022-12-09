@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+.post {
+  width: 500px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.post img {
+  width: 100%;
+}
+.post h1 {
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+.paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.paginator div {
+  margin: 30px;
+}
+.paginator .active {
+  cursor: pointer;
+}
+.paginator .disabled {
+  cursor: not-allowed;
+  color: rgb(179, 179, 179);
+}
